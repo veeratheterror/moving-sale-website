@@ -14,6 +14,11 @@ const conditionStyles: Record<string, string> = {
     "bg-[#d8d2c9] text-[#4f4b45]",
 };
 
+const statusStyles: Record<string, string> = {
+  Available: "bg-green-100 text-green-700 border border-green-200",
+  Sold: "bg-red-100 text-red-700 border border-red-200",
+};
+
 export function ItemCard({ item }: { item: SaleItem }) {
   const hasPrice = item.price > 0;
   const images = item.images ?? [];
@@ -32,7 +37,9 @@ export function ItemCard({ item }: { item: SaleItem }) {
   const next = () => setIdx((i) => (i + 1) % images.length);
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-[28px] border border-[#d9d1c7] bg-[#f7f3ec] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+    <article className={`group flex flex-col overflow-hidden rounded-2xl border bg-card transition-all hover:-translate-y-1 hover:shadow-lg ${
+  item.status === "Sold" ? "opacity-60 grayscale" : ""
+}`}>
       <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden bg-[#efe9df] text-6xl">
         {hasImages ? (
           <>
@@ -103,11 +110,29 @@ export function ItemCard({ item }: { item: SaleItem }) {
             {item.emoji}
           </span>
         )}
-        <span
-  className={`absolute left-4 top-4 rounded-full px-3 py-1 text-sm font-semibold shadow-sm ${conditionStyles[item.condition]}`}
->
-          {item.condition}
-        </span>
+        <div className="absolute left-4 right-4 top-4 flex items-center justify-between">
+
+          <span
+
+            className={`rounded-full px-3 py-1 text-sm font-semibold shadow-sm ${conditionStyles[item.condition]}`}
+
+          >
+
+            {item.condition}
+
+          </span>
+
+          <span
+
+            className={`rounded-full px-3 py-1 text-xs font-semibold shadow-sm ${statusStyles[item.status]}`}
+
+          >
+
+            {item.status}
+
+          </span>
+
+</div>
       </div>
       <div className="flex flex-1 flex-col gap-3 p-4">
         <div className="flex-1">

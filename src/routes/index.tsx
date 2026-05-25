@@ -1,13 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { MapPin, MessageCircle, Phone, Clock } from "lucide-react";
 import {
-  CATEGORIES,
   ITEMS,
   PICKUP_LOCATION,
   WHATSAPP_NUMBER,
   whatsappLink,
-  type Category,
 } from "../lib/sale-data";
 import { ItemCard } from "../components/ItemCard";
 
@@ -30,22 +28,7 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-type Filter = "All" | Category;
-
 function Index() {
-  const [filter, setFilter] = useState<Filter>("All");
-
-  const filtered = useMemo(
-    () => (filter === "All" ? ITEMS : ITEMS.filter((i) => i.category === filter)),
-    [filter],
-  );
-
-  const counts = useMemo(() => {
-    const map: Record<string, number> = { All: ITEMS.length };
-    CATEGORIES.forEach((c) => (map[c] = ITEMS.filter((i) => i.category === c).length));
-    return map;
-  }, []);
-
   return (
     <div className="min-h-screen bg-background">
       {/* Nav */}
@@ -72,7 +55,7 @@ function Index() {
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--color-accent)_/_0.18,_transparent_60%)]" />
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
           <span className="inline-flex items-center gap-2 rounded-full border bg-card px-3 py-1 text-xs font-medium text-muted-foreground">
-            <span className="h-1.5 w-1.5 rounded-full bg-whatsapp" />
+            <span className="h-2.5 w-2.5 rounded-full bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.8)] animate-pulse" />
             Live — Pickup available now
           </span>
           <h1 className="mt-5 max-w-3xl font-display text-4xl leading-[1.05] sm:text-5xl md:text-6xl">
@@ -98,60 +81,16 @@ function Index() {
               Browse {ITEMS.length} items
             </a>
           </div>
-
-          <dl className="mt-10 grid max-w-2xl grid-cols-2 gap-4 sm:grid-cols-3">
-            <div className="rounded-xl border bg-card p-4">
-              <dt className="text-xs uppercase tracking-wider text-muted-foreground">Items</dt>
-              <dd className="mt-1 font-display text-2xl">{ITEMS.length}</dd>
-            </div>
-            <div className="rounded-xl border bg-card p-4">
-              <dt className="text-xs uppercase tracking-wider text-muted-foreground">Categories</dt>
-              <dd className="mt-1 font-display text-2xl">{CATEGORIES.length}</dd>
-            </div>
-            <div className="col-span-2 rounded-xl border bg-card p-4 sm:col-span-1">
-              <dt className="text-xs uppercase tracking-wider text-muted-foreground">Policy</dt>
-              <dd className="mt-1 font-display text-lg">First come, first serve</dd>
-            </div>
-          </dl>
         </div>
       </section>
 
       {/* Items */}
       <section id="items" className="mx-auto max-w-6xl px-4 pb-20 sm:px-6">
-        <div className="flex items-end justify-between gap-4 pb-6">
-          <div>
-            <h2 className="font-display text-3xl sm:text-4xl">Available Items</h2>
-            <p className="mt-1 text-sm text-muted-foreground">
-              Tap an item to enquire via WhatsApp.
-            </p>
-          </div>
-        </div>
 
         {/* Category filter */}
-        <div className="-mx-4 mb-8 flex gap-2 overflow-x-auto px-4 pb-2 sm:mx-0 sm:px-0">
-          {(["All", ...CATEGORIES] as Filter[]).map((c) => {
-            const active = filter === c;
-            return (
-              <button
-                key={c}
-                onClick={() => setFilter(c)}
-                className={`shrink-0 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
-                  active
-                    ? "border-primary bg-primary text-primary-foreground"
-                    : "border-border bg-card text-foreground hover:bg-secondary"
-                }`}
-              >
-                {c}
-                <span className={`ml-2 text-xs ${active ? "opacity-80" : "text-muted-foreground"}`}>
-                  {counts[c]}
-                </span>
-              </button>
-            );
-          })}
-        </div>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {filtered.map((item) => (
+        <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {ITEMS.map((item) => (
             <ItemCard key={item.id} item={item} />
           ))}
         </div>
@@ -163,7 +102,7 @@ function Index() {
           <div>
             <h3 className="font-display text-xl">Get in touch</h3>
             <p className="mt-2 text-sm text-muted-foreground">
-              Quickest replies on WhatsApp. Serious buyers only, please.
+              Quickest replies on WhatsApp. Serious buyers only.
             </p>
             <a
               href={whatsappLink()}

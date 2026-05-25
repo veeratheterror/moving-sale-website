@@ -46,11 +46,86 @@ import ClothStand2 from "@/assets/ClothStand/ClothStand-2.jpeg";
 import ClothStand3 from "@/assets/ClothStand/ClothStand-3.jpeg";
 import cupboard1 from "@/assets/cupboard/cupboard-1.jpg";
 import cupboard2 from "@/assets/cupboard/cupboard-2.jpg";
-import DiningTable1 from "@/assets/DiningTable/DiningTable-1.JPG";
-import DiningTable2 from "@/assets/DiningTable/DiningTable-2.JPG";
-import DiningTable3 from "@/assets/DiningTable/DiningTable-3.JPG";
-import DiningTable4 from "@/assets/DiningTable/DiningTable-4.JPG";
-import DiningTable5 from "@/assets/DiningTable/DiningTable-5.JPG";
+import DiningTable1 from "@/assets/DiningTable/DiningTable-1.jpg";
+import DiningTable2 from "@/assets/DiningTable/DiningTable-2.jpg";
+import DiningTable3 from "@/assets/DiningTable/DiningTable-3.jpg";
+import DiningTable4 from "@/assets/DiningTable/DiningTable-4.jpg";
+import DiningTable5 from "@/assets/DiningTable/DiningTable-5.jpg";
+import DiwanAndCot1 from "@/assets/DiwanAndCot/DiwanAndCot-1.jpeg";
+import DiwanAndCot2 from "@/assets/DiwanAndCot/DiwanAndCot-2.jpeg";
+import DiwanAndCot3 from "@/assets/DiwanAndCot/DiwanAndCot-3.jpg";
+import DiwanAndCot4 from "@/assets/DiwanAndCot/DiwanAndCot-4.jpg";
+
+import FeatherliteChair1 from "@/assets/FeatherliteChair/FeatherliteChair-1.jpeg";
+import FeatherliteChair2 from "@/assets/FeatherliteChair/FeatherliteChair-2.jpeg";
+import FeatherliteChair3 from "@/assets/FeatherliteChair/FeatherliteChair-3.jpeg";
+import FeatherliteChair4 from "@/assets/FeatherliteChair/FeatherliteChair-4.jpeg";
+
+import FoldableTable1 from "@/assets/FoldableTable/FoldableTable-1.jpeg";
+import FoldableTable2 from "@/assets/FoldableTable/FoldableTable-2.jpeg";
+import FoldableTable3 from "@/assets/FoldableTable/FoldableTable-3.jpeg";
+
+import Fridge1 from "@/assets/Fridge/Fridge-1.jpeg";
+import Fridge2 from "@/assets/Fridge/Fridge-2.jpeg";
+import Fridge3 from "@/assets/Fridge/Fridge-3.jpeg";
+import Fridge4 from "@/assets/Fridge/Fridge-4.jpeg";
+
+import GamingChair1 from "@/assets/GamingChair/GamingChair-1.jpeg";
+import GamingChair2 from "@/assets/GamingChair/GamingChair-2.jpeg";
+import GamingChair3 from "@/assets/GamingChair/GamingChair-3.jpeg";
+
+import Guitar1 from "@/assets/Guitar/Guitar-1.jpeg";
+import Guitar2 from "@/assets/Guitar/Guitar-2.jpeg";
+import Guitar3 from "@/assets/Guitar/Guitar-3.jpeg";
+
+import Induction1 from "@/assets/Induction/Induction-1.jpeg";
+import Induction2 from "@/assets/Induction/Induction-2.jpeg";
+
+import IronBox1 from "@/assets/IronBox/IronBox-1.jpeg";
+import IronBox2 from "@/assets/IronBox/IronBox-2.jpeg";
+import IronBox3 from "@/assets/IronBox/IronBox-3.jpeg";
+import IronBox4 from "@/assets/IronBox/IronBox-4.jpeg";
+
+import KitchenRack1 from "@/assets/KitchenRack/KitchenRack-1.jpeg";
+import KitchenRack2 from "@/assets/KitchenRack/KitchenRack-2.jpeg";
+import KitchenRack3 from "@/assets/KitchenRack/KitchenRack-3.jpeg";
+import KitchenRack4 from "@/assets/KitchenRack/KitchenRack-4.jpeg";
+
+import Microwave1 from "@/assets/Microwave/Microwave-1.jpeg";
+import Microwave2 from "@/assets/Microwave/Microwave-2.jpeg";
+import Microwave3 from "@/assets/Microwave/Microwave-3.jpeg";
+
+import SMKHelmet1 from "@/assets/SMKHelmet/SMKHelmet-1.jpeg";
+import SMKHelmet2 from "@/assets/SMKHelmet/SMKHelmet-2.jpeg";
+import SMKHelmet3 from "@/assets/SMKHelmet/SMKHelmet-3.jpeg";
+import SMKHelmet4 from "@/assets/SMKHelmet/SMKHelmet-4.jpeg";
+import SMKHelmet5 from "@/assets/SMKHelmet/SMKHelmet-5.jpeg";
+import SMKHelmet6 from "@/assets/SMKHelmet/SMKHelmet-6.jpeg";
+import SMKHelmet7 from "@/assets/SMKHelmet/SMKHelmet-7.jpeg";
+
+import SmallNightTable1 from "@/assets/SmallNightTable/SmallNightTable-1.jpg";
+import SmallNightTable2 from "@/assets/SmallNightTable/SmallNightTable-2.jpg";
+import SmallNightTable3 from "@/assets/SmallNightTable/SmallNightTable-3.jpg";
+
+import VegetableRack1 from "@/assets/VegetableRack/VegetableRack-1.jpeg";
+import VegetableRack2 from "@/assets/VegetableRack/VegetableRack-2.jpeg";
+import VegetableRack3 from "@/assets/VegetableRack/VegetableRack-3.jpeg";
+
+import WallClock1 from "@/assets/WallClock/WallClock-1.jpeg";
+import WallClock2 from "@/assets/WallClock/WallClock-2.jpeg";
+
+import TVTable1 from "@/assets/TVTable/TVTable-1.jpg";
+
+import TallNightTable1 from "@/assets/TallNightTable/TallNightTable-1.jpg";
+
+import stove1 from "@/assets/Stove/Stove-1.jpeg";
+import stove2 from "@/assets/Stove/Stove-2.jpeg";
+import stove3 from "@/assets/Stove/Stove-3.jpeg";
+
+import washingMachine1 from "@/assets/WashingMachine/WashingMachine-1.jpeg";
+import washingMachine2 from "@/assets/WashingMachine/WashingMachine-2.jpeg";
+import washingMachine3 from "@/assets/WashingMachine/WashingMachine-3.jpeg";
+import washingMachine4 from "@/assets/WashingMachine/WashingMachine-4.jpeg";
 
 
 const studyTableShelfImages = [
@@ -102,6 +177,118 @@ export const CATEGORIES: Category[] = [
   "Misc.",
 ];
 
+const diwanAndCotImages = [
+  DiwanAndCot1,
+  DiwanAndCot2,
+  DiwanAndCot3,
+  DiwanAndCot4,
+];
+
+const featherliteChairImages = [
+  FeatherliteChair1,
+  FeatherliteChair2,
+  FeatherliteChair3,
+  FeatherliteChair4,
+];
+
+const foldableTableImages = [
+  FoldableTable1,
+  FoldableTable2,
+  FoldableTable3,
+];
+
+const fridgeImages = [
+  Fridge1,
+  Fridge2,
+  Fridge3,
+  Fridge4,
+];
+
+const gamingChairImages = [
+  GamingChair1,
+  GamingChair2,
+  GamingChair3,
+];
+
+const guitarImages = [
+  Guitar1,
+  Guitar2,
+  Guitar3,
+];
+
+const inductionImages = [
+  Induction1,
+  Induction2,
+];
+
+const ironBoxImages = [
+  IronBox1,
+  IronBox2,
+  IronBox3,
+  IronBox4,
+];
+
+const kitchenRackImages = [
+  KitchenRack1,
+  KitchenRack2,
+  KitchenRack3,
+  KitchenRack4,
+];
+
+const microwaveImages = [
+  Microwave1,
+  Microwave2,
+  Microwave3,
+];
+
+const smkHelmetImages = [
+  SMKHelmet1,
+  SMKHelmet2,
+  SMKHelmet3,
+  SMKHelmet4,
+  SMKHelmet5,
+  SMKHelmet6,
+  SMKHelmet7,
+];
+
+const smallNightTableImages = [
+  SmallNightTable1,
+  SmallNightTable2,
+  SmallNightTable3,
+];
+
+const vegetableRackImages = [
+  VegetableRack1,
+  VegetableRack2,
+  VegetableRack3,
+];
+
+const wallClockImages = [
+  WallClock1,
+  WallClock2,
+];
+
+const tvTableImages = [
+  TVTable1,
+];
+
+const tallNightTableImages = [
+  TallNightTable1,
+];
+
+const stoveImages = [
+  stove1,
+  stove2,
+  stove3,
+];
+
+const washingMachineImages = [
+  washingMachine1,
+  washingMachine2,
+  washingMachine3,
+  washingMachine4,
+];
+
 // Condition mapping from source sheet:
 //   Mint          -> Like New
 //   Barely Used   -> Excellent
@@ -113,37 +300,37 @@ export const ITEMS: SaleItem[] = [
   { id: "rocking-chair", name: "Rocking Chair", price: 999, condition: "Fair", category: "Study Room", emoji: "🪑", status: "Sold",
 availableFrom: "01 Jul 2026" }, // TODO: set price
   { id: "office-chair-zodiac", name: "Office Chair", price: 8499, condition: "Excellent", category: "Study Room", brand: "Green Soul Zodiac Pro", dimensions: "66 × 66 × 129 cm", emoji: "💺", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: gamingChairImages },
   { id: "office-chair-comet", name: "Office Chair", price: 4999, condition: "Good", category: "Study Room", brand: "Featherlite Comet", dimensions: "40 × 30 × 30 cm", emoji: "💺", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: featherliteChairImages },
   { id: "study-table", name: "Study Table", price: 11999, condition: "Fair", category: "Study Room", brand: "Solid Wood", emoji: "🪟", status: "Available",
 availableFrom: "01 Jul 2026" }, // TODO: set price
   { id: "foldable-table", name: "Foldable Table", price: 1999, condition: "Good", category: "Study Room", brand: "Engineered Wood", dimensions: "90 × 60 × 70 cm", emoji: "📐", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: foldableTableImages },
   { id: "helmet-kyt", name: "Helmet", price: 6499, condition: "Good", category: "Study Room", brand: "KYT TT Revo", emoji: "⛑️", status: "Coming Soon",
 availableFrom: "01 Jul 2026" },
   { id: "helmet-smk", name: "Helmet", price: 4299, condition: "Like New", category: "Study Room", brand: "SMK Typhoon Freeride", emoji: "⛑️", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: smkHelmetImages },
   { id: "flower-clock", name: "Flower Clock", price: 899, condition: "Excellent", category: "Study Room", brand: "Amazon", dimensions: "53 × 53 cm", emoji: "🕰️", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: wallClockImages },
   { id: "iron-box", name: "Iron Box", price: 2799, condition: "Like New", category: "Study Room", brand: "Havells Husky 220W", dimensions: "31.3 × 12.5 cm", emoji: "👔", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: ironBoxImages },
   { id: "study-table-shelf", name: "Study Table Shelf", price: 799, condition: "Excellent", category: "Study Room", brand: "Modular Engineered Wood Shelf", dimensions: "60 × 15 × 47.5 cm", emoji: "📚", status: "Available",
 availableFrom: "01 Jul 2026", images: studyTableShelfImages },
 
   // Hall
   { id: "tv-table", name: "TV Table", price: 3199, condition: "Excellent", category: "Hall", brand: "Engineered Wood", dimensions: "86 × 34 × 63 cm", emoji: "📺", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: tvTableImages },
   { id: "center-table", name: "Center Table", price: 8999, condition: "Excellent", category: "Hall", brand: "Solid Wood — Sheesham", emoji: "🪵", status: "Reserved",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026" }, // TODO: set price
   { id: "sofa-cum-bed", name: "Sofa Cum Bed", price: 31999, condition: "Excellent", category: "Hall", brand: "Solid Wood — Neem Wood", dimensions: "230 × 81 × 97 cm (230 × 157 × 97 expanded)", emoji: "🛋️", status: "Available",
 availableFrom: "01 Jul 2026", images: sofaImages },
   { id: "ottoman", name: "Ottoman", price: 0, condition: "Excellent", category: "Hall", brand: "Solid Wood — Neem Wood", dimensions: "95 × 82 × 49 cm", emoji: "🟫", status: "Available",
 availableFrom: "01 Jul 2026", images: sofaImages },
   { id: "diwan-cot-storage", name: "Diwan Cot with Storage", price: 5499, condition: "Excellent", category: "Hall", brand: "Engineered Wood", dimensions: "200 × 100 × 32 cm", emoji: "🛏️", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: diwanAndCotImages },
   { id: "diwan-mattress", name: "Diwan Mattress + Waterproof Cover", price: 7299, condition: "Good", category: "Hall", brand: "WakeFit Ortho Essential", dimensions: "200 × 100 × 13 cm", emoji: "🛏️", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: diwanAndCotImages },
   { id: "dining-table", name: "Dining Table", price: 24999, condition: "Excellent", category: "Hall", brand: "Solid Wood — Sheesham", dimensions: "142 × 84 × 75 cm", emoji: "🍽️", status: "Available",
 availableFrom: "01 Jul 2026", images: diningTableImages },
 
@@ -159,39 +346,39 @@ availableFrom: "01 Jul 2026" },
   { id: "queen-mattress-master", name: "Queen Mattress + Waterproof Cover", price: 32999, condition: "Good", category: "Master Bedroom", brand: "Smart Ortho Pro Mattress", dimensions: "200 × 152 cm", emoji: "🛏️", status: "Available",
 availableFrom: "01 Jul 2026" },
   { id: "night-stand-light", name: "Night Stand Table (Light Brown)", price: 1799, condition: "Excellent", category: "Master Bedroom", brand: "Engineered Wood", dimensions: "77 × 60 × 28 cm", emoji: "🟤", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: tallNightTableImages },
   { id: "night-stand-dark", name: "Night Stand Table (Dark Brown)", price: 1699, condition: "Excellent", category: "Master Bedroom", brand: "Engineered Wood", dimensions: "42 × 34 × 43 cm", emoji: "🟫", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: smallNightTableImages },
 
   // Kitchen
   { id: "water-filter", name: "Water Filter", price: 19999, condition: "Excellent", category: "Kitchen", brand: "Havells Delite DX 6.5 L RO + UV", dimensions: "35 × 25 × 50 cm", emoji: "💧", status: "Reserved",
 availableFrom: "01 Jul 2026" }, // TODO: set price
   { id: "stove", name: "Stove", price: 2999, condition: "Good", category: "Kitchen", brand: "Faber", dimensions: "60 × 32 × 13 cm", emoji: "🔥", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: stoveImages },
   { id: "microwave", name: "Microwave", price: 9999, condition: "Excellent", category: "Kitchen", brand: "Samsung MWO CONV CE76JD-B1/X 21L", dimensions: "48.9 × 28.2 × 44.4 cm", emoji: "📡", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: microwaveImages },
   { id: "fridge", name: "Fridge with Stabilizer + Stand", price: 21999, condition: "Excellent", category: "Kitchen", brand: "Samsung RT28C3042S8", dimensions: "55.5 × 63.7 × 154.5 cm", emoji: "🧊", status: "Available",
-availableFrom: "01 Jul 2026" },
-  { id: "mixie", name: "Mixie", price: 1999, condition: "Excellent", category: "Kitchen", brand: "Pigeon", emoji: "🥤", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: fridgeImages },
+  { id: "mixie", name: "Mixie", price: 1999, condition: "Excellent", category: "Kitchen", brand: "Pigeon", emoji: "🥤", status: "Reserved",
+availableFrom: "01 Jul 2026", },
   { id: "otg", name: "OTG", price: 6999, condition: "Good", category: "Kitchen", emoji: "🍞", status: "Reserved",
 availableFrom: "01 Jul 2026" }, // TODO: set price
   { id: "kitchen-rack", name: "Kitchen Metal Rack", price: 2499, condition: "Excellent", category: "Kitchen", brand: "JD FRESH 4-Shelf Adjustable Boltless", dimensions: "152.4 × 60.96 × 30.48 cm", emoji: "🍳", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: kitchenRackImages },
   { id: "grinder", name: "Grinder", price: 8599, condition: "Like New", category: "Kitchen", brand: "Ultra", dimensions: "27.2 × 28.8 × 48.5 cm", emoji: "⚙️", status: "Available",
 availableFrom: "01 Jul 2026" },
   { id: "fruit-veg-stand", name: "Fruit and Vegetable Stand", price: 1599, condition: "Excellent", category: "Kitchen", brand: "4-Shelf Stainless Steel Trolley", dimensions: "68 × 30 × 10 cm", emoji: "🥦", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: vegetableRackImages },
 
   // Misc.
   { id: "scooter", name: "Scooter with Charger", price: 159999, condition: "Excellent", category: "Misc.", brand: "Ather Rizta Z 2.9 kWh", emoji: "🛵", status: "Coming Soon",
 availableFrom: "01 Jul 2026" }, // TODO: set price
   { id: "washing-machine", name: "Washing Machine + Stand", price: 33999, condition: "Excellent", category: "Misc.", brand: "Samsung WW80TA046AB1TL", dimensions: "60 × 85 × 55 cm", emoji: "🧺", status: "Available",
-availableFrom: "01 Jul 2026" },
-  { id: "ladder", name: "Ladder", price: 3599, condition: "Excellent", category: "Misc.", brand: "Bathla", emoji: "🪜", status: "Available",
+availableFrom: "01 Jul 2026", images: washingMachineImages },
+  { id: "ladder", name: "Ladder", price: 3599, condition: "Excellent", category: "Misc.", brand: "Bathla", emoji: "🪜", status: "Reserved",
 availableFrom: "01 Jul 2026" },
   { id: "guitar", name: "Guitar", price: 7999, condition: "Good", category: "Misc.", brand: "Fender SA-105CE", emoji: "🎸", status: "Available",
-availableFrom: "01 Jul 2026" },
+availableFrom: "01 Jul 2026", images: guitarImages },
   { id: "drying-stand", name: "Clothes Drying Stand", price: 2399, condition: "Excellent", category: "Misc.", brand: "Bathla Foldable Neo", dimensions: "122 × 7 × 64.5 cm", emoji: "👕", status: "Available",
 availableFrom: "01 Jul 2026", images: ClothStandImages },
 ];

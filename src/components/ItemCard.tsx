@@ -42,14 +42,6 @@ export function ItemCard({ item }: { item: SaleItem }) {
   };
 }, [open]);
 
-  // Preload all images so transitions are instant
-  useEffect(() => {
-    images.forEach((src) => {
-      const img = new Image();
-      img.src = src;
-    });
-  }, [images]);
-
   const prev = () => setIdx((i) => (i - 1 + images.length) % images.length);
   const next = () => setIdx((i) => (i + 1) % images.length);
 

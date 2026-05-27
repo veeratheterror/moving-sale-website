@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
 import { MapPin, MessageCircle, Phone, Clock } from "lucide-react";
 import {
   ITEMS,
+  SORTED_ITEMS,
   PICKUP_LOCATION,
   WHATSAPP_NUMBER,
   whatsappLink,
@@ -90,7 +90,7 @@ function Index() {
         {/* Category filter */}
 
         <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {ITEMS.map((item) => (
+          {SORTED_ITEMS.map((item) => (
             <ItemCard key={item.id} item={item} />
           ))}
         </div>
